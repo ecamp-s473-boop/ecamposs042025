@@ -1,0 +1,183 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #662813;
+}
+
+.container {
+  min-height: 10rem;
+  max-width: 75rem;
+  margin: auto;
+  background-color: white;
+  padding: 1rem;
+}
+
+#pageheader {
+  background-color: #59c2ba;
+  min-height: auto;
+  padding: 1rem;
+}
+
+#logo {
+  width: 6.25rem;
+  height: 6.25rem;
+  background-color: none;
+  background-image: url(Images/eclogo2.png);
+}
+
+#pageheader .container {
+  background-color: none;
+  min-height: auto;
+  text-align: center;
+}
+
+#pageheader a {
+  text-decoration: none;
+  color: #38160d;
+}
+
+#pageheader nav {
+  text-align: center;
+}
+#pageheader nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#pageheader nav ul li {
+  border: 2px solid #c9976b;
+  padding: 1rem;
+  background-color: #e5b37d;
+  margin: 2px;
+  border-radius: 50px;
+}
+#pageheader nav ul li:hover {
+  background-color: #d7a071;
+}
+
+#media {
+  background-color: lightblue;
+  min-height: 10rem;
+  padding: 1rem;
+  background-image: url(Images/hero.png);
+  background-size: cover;
+  aspect-ratio: 16/9;
+}
+
+#career {
+  background-color: #45dfd2;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#pagecontent {
+  background-color: #52d3c8;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+blockquote {
+  color: #148178;
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+  padding: 1rem;
+}
+
+span {
+  color: #148178;
+  text-align: right;
+  display: block;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 50%;
+}
+
+#semester1 {
+  background-color: #44dacd;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#semester1 a {
+  text-decoration: none;
+  color: #a17747;
+}
+
+#semester2 {
+  background-color: #3fe2d5;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#pagefooter {
+  background-color: #37edde;
+  min-height: auto;
+  padding: 1rem;
+}
+
+#pagefooter .container {
+  text-align: center;
+  min-height: auto;
+}
+
+#pagefooter a {
+  text-decoration: none;
+  color: #a17747;
+}
+
+#aifooter {
+  background-color: #34e8d9;
+  min-height: auto;
+  padding: 1rem;
+}
+
+#aifooter .container {
+  text-align: center;
+  min-height: auto;
+}
+
+#aifooter a {
+  text-decoration: none;
+  color: #a17747;
+}
+
+#subfooter {
+  background-color: #4efdee;
+  min-height: 10rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+audio {
+  display: block;
+  margin: auto;
+  background-color: #662813;
+  border: 5px solid #48190a;
+}
+
+@media screen and (min-width: 600px) {
+  #pageheader nav ul {
+    background-color: none;
+    margin-top: 2rem;
+  }
+  #pageheader nav ul li {
+    display: inline-block;
+  }
+  #pagecontent {
+    background-color: #46e1d4;
+  }
+  #career {
+    background-color: #57beb6;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #pagecontent {
+    background-color: #57beb6;
+  }
+  #career {
+    background-color: #46e1d4;
+  }
+}
