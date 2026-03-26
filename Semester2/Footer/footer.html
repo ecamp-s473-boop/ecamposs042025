@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Footer</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      body {
+        background-color: #ffe8d8;
+        color: #f4d1c9;
+        line-height: 1.7;
+        font-family:
+          "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+        padding: 1rem;
+        text-align: center;
+        color: #e95f66;
+      }
+
+      img {
+        position: fixed;
+        top: 10%;
+        transform: scaleX(1);
+        transform: rotate(15deg);
+      }
+
+      #pagefooter {
+        border-top: 5px solid #ff7972;
+        background-color: #fe9e96;
+        padding: 1rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+      }
+
+      #pagefooter > p {
+        border: 2px solid #ff7972;
+        border-radius: 2rem;
+        padding: 1.5rem;
+        text-align: center;
+      }
+
+      #pagefooter > article {
+        border: 2px solid #ff7972;
+        border-radius: 2rem;
+        padding: 1.5rem;
+      }
+
+      /* Font Awesome Styles */
+      i {
+        color: #e95f66;
+        font-size: 1.1rem;
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+      }
+
+      i.fa-paw {
+        transform: rotate(25deg);
+      }
+
+      @media screen and (min-width: 700px) {
+        body {
+          background-color: #f6dccb;
+        }
+
+        #pagefooter {
+          flex-direction: row;
+          text-align: left;
+          justify-content: space-evenly;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>⋆｡‧˚ʚ🍓🍰 Footer 🍰🍓ɞ˚‧｡⋆</h1>
+
+    <img
+      src="Images/strawberry-cake-slice-on-transparent-background-free-png.png"
+      alt="Slice of Strawberry Shortcake"
+      height="100px"
+    />
+
+    <footer id="pagefooter">
+      <p>
+        <i class="fa-solid fa-paw"></i> Paws & Whiskers <br />
+        Made with <i class="fa-solid fa-heart"></i> for furry friends
+      </p>
+
+      <article>
+        <i class="fa-solid fa-phone-volume"></i> 559-935-7520 <br />
+        <i class="fa-solid fa-envelope"></i> info@pawsandwhiskers.com <br />
+        <i class="fa-solid fa-map-pin"></i> 750 Van Ness St., Coalinga, CA 93210
+      </article>
+    </footer>
+  </body>
+</html>

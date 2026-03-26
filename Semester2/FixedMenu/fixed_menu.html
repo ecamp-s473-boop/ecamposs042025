@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fixed Menu</title>
+
+    <style>
+      /* Mobile First CSS */
+
+      html {
+        /* Temporary - Delete */
+        height: 200%;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #7fdcc9;
+        margin: 0%;
+      }
+
+      #pageheader {
+        background-color: #5ab3a1;
+        padding: 1rem;
+        /* Default */
+        position: static;
+      }
+
+      #logo {
+        height: 100px;
+        width: 100px;
+        margin: auto;
+        display: block;
+        padding-top: 1.5rem;
+      }
+
+      #fblogoheader {
+        background-color: rgb(241, 170, 99);
+      }
+
+      #pageheader h1 {
+        text-align: center;
+        color: white;
+        padding: 0.5rem;
+        /* Remove */
+        background-color: rgb(241, 155, 69);
+      }
+
+      #pageheader nav {
+        background-color: rgb(241, 170, 99);
+        padding: 0.5rem;
+        border-radius: 10px;
+      }
+
+      #pageheader ul {
+        padding: 0.5rem;
+        list-style-type: none;
+        background-color: #65e0ca;
+        border-radius: 10px;
+        /* Flexbox Component */
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      #pageheader li {
+        text-align: center;
+        text-decoration: none;
+        border: 1px solid white;
+        padding: 0.5rem;
+        background-color: #5bcab6;
+        border-radius: 10px;
+        margin: 1rem;
+      }
+
+      #pageheader a {
+        color: white;
+        text-decoration: none;
+      }
+
+      main {
+        padding: 1rem;
+      }
+
+      p {
+        line-height: 1.5;
+        color: #333;
+      }
+
+      @media screen and (min-width: 650px) {
+        body {
+          background-color: rgb(240, 180, 121);
+        }
+
+        #pageheader {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          /* Flexbox Component */
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        #fblogoheader {
+          /* Flexbox Component */
+          display: flex;
+          gap: 1rem;
+          padding-bottom: 1rem;
+          padding-left: 1rem;
+          align-items: center;
+        }
+
+        #pageheader ul {
+          flex-direction: row;
+          justify-content: center;
+        }
+
+        #pageheader nav {
+          min-width: 300px;
+        }
+
+        #logo {
+          width: 80px;
+          height: 80px;
+        }
+
+        main {
+          padding-top: 200px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header id="pageheader">
+      <!-- Start the logo and h1-->
+      <div id="fblogoheader">
+        <img
+          src="Images/paws_logo.png"
+          alt="Paws and Whiskers Logo"
+          id="logo"
+        />
+        <h1>Paws and Whiskers</h1>
+      </div>
+      <!-- End the logo and h1-->
+
+      <!-- Start Navigation -->
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Our Pets</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+      <!-- End Navigation -->
+    </header>
+    <main>
+      <h2>Fixed Menu</h2>
+      <p>
+        Every day, millions of adorable cats, dogs, and other animals sit in
+        shelters, waiting for a loving home. Imagine looking into the eyes of a
+        helpless puppy or kitten, knowing that without your compassion, they may
+        face a lonely future. These precious creatures long for warmth, joy, and
+        companionship. By choosing to adopt, you not only save a life but also
+        gain a loyal friend who will shower you with unconditional love. Don’t
+        turn a blind eye; every moment counts. Will you let their cute little
+        paws go untouched? Make a difference today—open your heart and home to a
+        furry friend in need!
+      </p>
+    </main>
+  </body>
+</html>

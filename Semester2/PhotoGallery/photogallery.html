@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Photo Gallery</title>
+    <style>
+      body {
+        background-color: rgb(227, 113, 181);
+      }
+
+      h1 {
+        text-align: center;
+        font-family: fantasy;
+        color: rgb(224, 54, 156);
+      }
+
+      .gallery {
+        background-color: rgb(207, 145, 216);
+        border: 4px solid rgb(224, 54, 156);
+        width: 90%;
+        max-width: 1280px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      figure {
+        background-color: rgb(250, 214, 255);
+        width: 100%;
+        max-width: 250px;
+        padding: 1rem;
+        margin: 1rem;
+        box-shadow: 50px;
+      }
+
+      figcaption {
+        text-align: center;
+        color: #333;
+        padding: 0.5rem;
+        font-family: fantasy;
+      }
+
+      img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Flexbox Photo Gallery</h1>
+
+    <div class="gallery">
+      <figure>
+        <img
+          src="https://picsum.photos/300/300/?random=1"
+          alt="Random Picsum Image"
+        />
+        <figcaption>Totally mysterious and random description</figcaption>
+      </figure>
+
+      <figure>
+        <img
+          src="https://picsum.photos/300/300/?random=2"
+          alt="Random Picsum Image"
+        />
+        <figcaption>Ya'll hate to see my captions coming</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="https://picsum.photos/300/300/?random=3"
+          alt="Random Picsum Image"
+        />
+        <figcaption>Jk I know you like reading my captions</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="https://picsum.photos/300/300/?random=4"
+          alt="Random Picsum Image"
+        />
+        <figcaption>I'm running out of things to say :(</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="https://picsum.photos/300/300/?random=5"
+          alt="Random Picsum Image"
+        />
+        <figcaption>I said hey, what's up, hello</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="https://picsum.photos/300/300/?random=6"
+          alt="Random Picsum Image"
+        />
+        <figcaption>Nyan Cat is so fire on 1000 hours TRUST</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="https://picsum.photos/300/300/?random=7"
+          alt="Random Picsum Image"
+        />
+        <figcaption>Friendship is SOMETIMES magic</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="https://picsum.photos/300/300/?random=8"
+          alt="Random Picsum Image"
+        />
+        <figcaption>I am soooooo happey!</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="https://picsum.photos/300/300/?random=9"
+          alt="Random Picsum Image"
+        />
+        <figcaption>Hello, Hola, Bonjour, Aloha, Konichiwa</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="https://picsum.photos/300/300/?random=10"
+          alt="Random Picsum Image"
+        />
+        <figcaption>Boom chika Boom I said a boom chika boom</figcaption>
+      </figure>
+    </div>
+  </body>
+</html>
