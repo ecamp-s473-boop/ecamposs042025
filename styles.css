@@ -12,12 +12,13 @@ body {
   margin: auto;
   background-color: white;
   padding: 1rem;
+  border-radius: 1rem;
 }
 
 #pageheader {
   background-color: #59c2ba;
   min-height: auto;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .gamja-flower-regular {
@@ -128,6 +129,42 @@ span {
 #semester2 a {
   text-decoration: none;
   color: #a17747;
+}
+
+#worksamples {
+  background-color: #37edde;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#worksamples ul {
+  list-style-type: none;
+}
+
+#worksamples a {
+  text-decoration: none;
+  color: #a17747;
+  padding-left: 0.5rem;
+}
+
+#certificates {
+  background-color: #3fe2d5;
+  min-height: 10rem;
+  padding: 1rem;
+}
+
+#certificates ul {
+  list-style-type: none;
+}
+
+#certificates a {
+  text-decoration: none;
+  color: #a17747;
+  padding-left: 0.5rem;
+}
+
+#certicates i {
+  padding-right: 1rem;
 }
 
 #pagefooter {
