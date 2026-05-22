@@ -86,7 +86,7 @@ body {
   padding: 1rem;
 }
 
-#career li {
+#career a {
   text-decoration: none;
   color: #a17747;
 }
